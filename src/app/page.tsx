@@ -7,6 +7,7 @@ import HowToBuy3D from '@/components/sections/layouts/howtobuy/3DHTB';
 import PatternTokenomics from '@/components/sections/layouts/tokenomics/PatternTokenomics';
 import BentoFAQ from '@/components/sections/layouts/faq/BentoFAQ';
 import FooterLogo from '@/components/footer/FooterLogo';
+import { Shield, Percent, Star } from 'lucide-react';
 
 export default function Home() {
   const navbarLinks = [
@@ -56,9 +57,9 @@ export default function Home() {
           title="Tokenomics"
           description="Our tokenomics are designed to ensure the long-term success of DogMemecoin."
           kpiItems={[
-            { value: "10,000,000", description: "Total Supply", icon: { } },
-            { value: "1,000,000", description: "Circulating Supply", icon: { } },
-            { value: "5%", description: "Transaction Fee", icon: { } }
+            { value: "10,000,000", description: "Total Supply", icon: Shield },
+            { value: "1,000,000", description: "Circulating Supply", icon: Star },
+            { value: "5%", description: "Transaction Fee", icon: Percent }
           ]}
         />
       </div>
